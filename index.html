@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PatternZen - Discover traditional Japanese patterns. High-quality public domain images from the National Diet Library.">
+  <title>PatternZen - Traditional Japanese Patterns</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">PatternZen</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </nav>
+      <div class="lang-switcher">
+        <a href="index.html" class="active">EN</a>
+        <a href="index-ja.html">日本語</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Discover Japanese Beauty</h1>
+        <p>Traditional Japanese patterns from the National Diet Library</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="content">
+        <h2>About PatternZen</h2>
+        <p>
+          PatternZen is a mobile application that provides traditional Japanese patterns (wagara) sourced from the National Diet Library's public domain collections.
+          All patterns are copyright-free and available for both personal and commercial use.
+        </p>
+
+        <h2>Features</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>🏛️ Trusted Sources</h3>
+            <p>All patterns from National Diet Library's public domain collections</p>
+          </div>
+          <div class="card">
+            <h3>🎨 High Quality</h3>
+            <p>Available in standard, high, and ultra-high resolutions</p>
+          </div>
+          <div class="card">
+            <h3>📚 Cultural Context</h3>
+            <p>Learn the origin, history, and meaning of each pattern</p>
+          </div>
+          <div class="card">
+            <h3>💼 Commercial Use</h3>
+            <p>Licensed for commercial projects with paid plans</p>
+          </div>
+        </div>
+
+        <h2>Download</h2>
+        <p style="text-align: center; margin: 2rem 0;">
+          <a href="#" class="btn">Download on Google Play</a>
+          <a href="#" class="btn btn-accent">Coming Soon on App Store</a>
+        </p>
+
+        <h2>Legal</h2>
+        <p>
+          Please review our legal documents before using the app:
+        </p>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a> (<a href="privacy-policy-ja.html">日本語</a>)</li>
+          <li><a href="terms-of-service.html">Terms of Service</a> (<a href="terms-of-service-ja.html">日本語</a>)</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>
+          For questions, support, or feedback:
+        </p>
+        <div class="info-box">
+          <p><strong>Email:</strong> chayk0vsk11@gmail.com</p>
+          <p><strong>Support Hours:</strong> Weekdays 10:00-18:00 (Japan Time)</p>
+          <p><strong>Languages:</strong> English, Japanese</p>
+        </div>
+
+        <h2>About the Data</h2>
+        <p>
+          All pattern images in PatternZen are sourced from:
+        </p>
+        <ul>
+          <li><strong>NDL Image Bank:</strong> <a href="https://www.ndl.go.jp/en/imagebank" target="_blank" rel="noopener">https://www.ndl.go.jp/en/imagebank</a></li>
+          <li><strong>NDL Digital Collections:</strong> <a href="https://dl.ndl.go.jp/" target="_blank" rel="noopener">https://dl.ndl.go.jp/</a></li>
+        </ul>
+        <p>
+          <em>Note: PatternZen is an independent project and not an official service of the National Diet Library.</em>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 PatternZen. All rights reserved.</p>
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="terms-of-service.html">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop">↑</a>
+
+  <script>
+    // Back to top button
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
+    backToTop.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
